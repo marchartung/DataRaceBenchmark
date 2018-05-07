@@ -1,0 +1,34 @@
+Actul start settings:
+ACTUL_TRACK_INTRODUCING=1
+ACTUL_DEBUG_OUTPUT=3
+ACTUL_VERBOSITY=2
+ACTUL_MAX_NUM_TESTS=100000
+ACTUL_MIN_NUM_TESTS=100
+ACTUL_NUM_WORKERS=1
+ACTUL_MAX_MEM_MB=32768
+ACTUL_SEED=1
+ACTUL_MAX_TIME=3600
+ACTUL_SUCCESSIVE_RELEASES=20
+ACTUL_MAX_SEQUENTIAL_READS=500
+ACTUL_MAX_IDLE_LOOPS=100000
+ACTUL_IDLE_MICROSECONDS=20
+ACTUL_PRINT_INTERVAL=5
+CURclassMarker,numTestsEstimated,doneTests,numCrashes,numCandidates,numRaces,time,memory,testMode,s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,s21,s22,s23,s24,s25,s26,s27,s28,s29,s30,s31
+Running Actul test environment
+Error: MemoryAddressMap: Only supports memory access events with a width of equal or less of 8 byte
+Actul aborts.
+TestReport:
+Test failed
+Error: TestScheduler: Internal error. Shutting down
+Actul aborts.
+No data races found.
+crashes/done/max tests: 0/0/100000
+time: 0.005
+Actul test environment finishes
+Performance:
+Time: 0.005
+StartWorker: 0.001
+CleanWorker: 0
+IDLE_Master: 0.001
+MBCa_Master: 0
+Update DB: 0
